@@ -13,8 +13,11 @@
                     <p>Hey, <b>Jotham</b></p>
                     <small class="text-muted">Admin</small>
                 </div>
-                <div class="profile-photo">
-                    <img src="../../assets/profile-2.jpg" alt="Jotham">
+                
+                <div class="profile-photo" data-bs-toggle="popover" title="Popover title">
+                    <!-- <button type="button"  data-bs-content="Here's some amazing content."> -->
+                        <img src="../../assets/profile-2.jpg" alt="Jotham">
+                    <!-- </button> -->
                 </div>
             </div>
         </div>

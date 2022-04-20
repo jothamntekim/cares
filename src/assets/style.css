@@ -62,7 +62,7 @@ body{
     margin: 0 auto;
     gap: 1.8rem;
     box-sizing: border-box;
-    grid-template-columns: 14rem 54rem 20rem;
+    grid-template-columns: 14rem 54rem 18rem;
     justify-content: space-around;
 }
 

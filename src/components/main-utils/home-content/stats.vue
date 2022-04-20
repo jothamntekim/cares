@@ -67,10 +67,11 @@ export default {
 <style scoped>
 .insights{
        display: grid;
-       grid-template-columns: repeat(3, 2fr);
+       grid-template-columns: repeat(3, 1fr);
        gap: 1.5rem;
        margin-bottom: 2rem;
        margin-top: 3rem;
+       box-sizing: border-box;
    }
 
   .insights > div {
@@ -106,7 +107,7 @@ export default {
 
    .insights > div .middle {
        display: flex;
-       justify-content: space-between;
+       /* justify-content: space-between; */
        align-items: center;
    }
 
@@ -117,9 +118,9 @@ export default {
 
    .insights .progress {
        position: relative;
-       width: 92%;
-       height: 92%;
-       border-radius: 50%;
+       width: 100%;
+       height: 100%;
+       justify-content: flex-end;
        background: none;
    }
 
@@ -155,11 +156,12 @@ export default {
     .insights .progress .number {
        position: absolute;
        top: -5px;
-       left: 0;
+       right: 3rem;
+       /* justify-content: ; */
        height: 100%;
        width: 100%;
        display: flex;
-       justify-content: center;
+       justify-content: flex-end;
        align-items: center;  
     }
 

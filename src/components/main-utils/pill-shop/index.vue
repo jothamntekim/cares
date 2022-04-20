@@ -1,5 +1,5 @@
 <template>
-    <div id="pills">
+    <div id="pills" class="bg-white">
         <Btn />
         <table class="table table-hover">
             <thead>
@@ -85,6 +85,7 @@ export default {
       #pills{
           margin-top: 3.5rem;
           overflow-x: auto;
+          padding: 2rem;
       }
       #pills table{
           font-size: 1.2rem;

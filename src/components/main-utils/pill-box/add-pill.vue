@@ -1,5 +1,5 @@
 <template>
-    <div class="create">
+    <div class="create bg-white">
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="inputName" class="form-label">Pill Label</label>
@@ -57,6 +57,7 @@ export default {
 <style scoped>
   .create{
       margin-top: 3.5rem;
+      padding: 3rem;
   }
 
   .create form label{

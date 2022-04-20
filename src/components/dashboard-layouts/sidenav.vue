@@ -2,7 +2,7 @@
         <aside :class="{mobileWidth: isActive}">
             <div class="top">
                 <div class="logo">
-                    <img src="../../assets/logo.png" alt="">
+                    <span class="material-icons-sharp" id="logo">spa</span>
                     <h2 class="title ">CARES<span class="success">+</span></h2>
                 </div>
                 <div class="close" id="close-btn" @click="closeNav">
@@ -36,13 +36,17 @@
                     <h3>Health Updates</h3>
                 </a>
                 <a href="">
-                    <span class="material-icons-sharp">spa</span>
+                    <span class="material-icons-sharp">self_improvement</span>
                     <h3>Physical Activities</h3>
                 </a>
                 <a href="">
                     <span class="material-icons-sharp">pix</span>
                     <h3>Vitals</h3>
                 </a>
+                <router-link to="/pharm-profile">
+                <span class="material-icons-sharp">manage_accounts</span>
+                    <h3>Settings</h3>
+                </router-link>
                 <a href="">
                     <span class="material-icons-sharp">logout</span>
                     <h3>Logout</h3>
@@ -102,14 +106,15 @@ aside .logo h2 span{
 }
 
 aside .logo .title{
-    margin-top: -.7rem;
+    margin-top: -.4rem;
     font-size: 1.5rem;
     color: rgb(110, 107, 107);
 }
 
-aside .logo img {
-    width: 2rem;
+aside .logo #logo {
     height: 2rem;
+    width: 2rem;
+    color: var(--color-primary);
 }
 
 aside .close{
@@ -129,6 +134,7 @@ aside .sidebar {
 aside h3{
     font-weight: 500;
     font-size: 1rem;
+    margin-top: 0.8rem;
 }
 
 aside .sidebar a{

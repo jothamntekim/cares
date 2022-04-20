@@ -6,6 +6,9 @@ import PillIndex from '../components/main-utils/pill-shop/index.vue'
 import AddDrug from '../components/main-utils/pill-shop/add-drug.vue'
 import AddPill from '../components/main-utils/pill-box/add-pill.vue'
 import PillBox from '../components/main-utils/pill-box/index.vue'
+import Profile from '../components/main-utils/profile/index.vue'
+import PharmProfile from '../components/main-utils/profile/pharm.vue'
+
 
 Vue.use(VueRouter)
 
@@ -47,6 +50,16 @@ const routes = [
     path: '/add-pill',
     name: 'Pill',
     component: AddPill
+  },
+  {
+    path: '/profile',
+    name: Profile,
+    component: Profile
+  },
+  {
+    path: '/pharm-profile',
+    name: PharmProfile,
+    component: PharmProfile
   }
 ]
 
