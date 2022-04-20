@@ -36,10 +36,6 @@ export default {
    }
 
 
-/* -------------  MEDIA QUERIES ----------- */
-@media screen and (max-width:1200px) {
-
-}
 
 
 /* -------------  MEDIA QUERIES(Mobile) ----------- */

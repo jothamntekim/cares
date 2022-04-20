@@ -25,4 +25,11 @@ export default {
        background: transparent;
        color: var(--color-dark);
     }
+
+    /* -------------  MEDIA QUERIES(Mobile) ----------- */
+@media screen and (max-width:768px) {
+   .date{
+       margin-left: 0;
+   }
+}
 </style>

@@ -14,9 +14,9 @@
                     <small class="text-muted">Admin</small>
                 </div>
                 
-                <div class="profile-photo" data-bs-toggle="popover" title="Popover title">
+                <div class="profile-photo">
                     <!-- <button type="button"  data-bs-content="Here's some amazing content."> -->
-                        <img src="../../assets/profile-2.jpg" alt="Jotham">
+                        <router-link to="/profile"><img src="../../assets/profile-2.jpg" alt="Jotham"></router-link>
                     <!-- </button> -->
                 </div>
             </div>
