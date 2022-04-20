@@ -8,13 +8,16 @@
                 <span class="material-icons-sharp active">light_mode</span>
                 <span class="material-icons-sharp">dark_mode</span>
             </div>
+            <div class="notifier">
+                <span class="material-icons-sharp">notifications</span>
+            </div>
             <div class="profile">
                 <div class="info">
                     <p>Hey, <b>Jotham</b></p>
                     <small class="text-muted">Admin</small>
                 </div>
                 
-                <div class="profile-photo">
+                <div class="profile-photo" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">
                     <!-- <button type="button"  data-bs-content="Here's some amazing content."> -->
                         <router-link to="/profile"><img src="../../assets/profile-2.jpg" alt="Jotham"></router-link>
                     <!-- </button> -->
@@ -174,6 +177,9 @@ border-radius: var(--border-radius-1);
     background: var(--color-primary);
     color: white;
     border: var(--border-radius-1);
+}
+.notifier span{
+    color: var(--color-primary);
 }
 
 .right .top .profile {

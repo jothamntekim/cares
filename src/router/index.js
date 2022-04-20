@@ -33,12 +33,12 @@ const routes = [
   },
   {
     path: '/pill-shop',
-    name: 'Pill',
+    name: 'Drugs',
     component: PillIndex
   },
   {
     path: '/add-drug',
-    name: 'Pill',
+    name: 'Drug',
     component: AddDrug
   },
   {
